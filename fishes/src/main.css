@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Oswald';
+    color: rgb(255, 102, 0);
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/content/jeremy-bishop-5MvL55-rSvI-unsplash.jpg);
+    background-position-y: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 23vw;
+    height: 28vh;
+    border-radius: 5vh;
+    box-shadow: 2vh 3vh 3vh rgb(23, 23, 23);
+    position: fixed;
+    transition: 1s;
+}
+
+img:hover{
+    width: 24vw;
+    height: 29vh;
+    border-radius: 5vh;
+    box-shadow: 2vh 3vh 3vh rgb(23, 23, 23);
+    transition: 1s;
+}
+
+.part1{
+    width: 100%;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    display: flex;
+}
+
+.p1{
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+.pName{
+    font-size: 40px;
+    margin-left: 2vh;
+}
+
+.pDescribing{
+    margin-left: 5vh;
+    font-size: 17px;
+}
+
