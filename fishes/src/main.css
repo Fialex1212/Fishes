@@ -8,17 +8,18 @@ html{
 
 body{
     font-family: 'Oswald';
-    color: rgb(255, 102, 0);
+    color: rgb(0, 0, 22);
 }
 
 .page{
     width: 100%;
     height: 100vh;
-    background-image: url(/content/jeremy-bishop-5MvL55-rSvI-unsplash.jpg);
+    background-color: rgb(198, 198, 198);
     background-position-y: center;
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -26,7 +27,7 @@ img{
     width: 23vw;
     height: 28vh;
     border-radius: 5vh;
-    box-shadow: 2vh 3vh 3vh rgb(23, 23, 23);
+    box-shadow: 0.1vh 0.7vh 0.7vh rgb(23, 23, 23, 0.6);
     position: fixed;
     transition: 1s;
 }
@@ -35,7 +36,13 @@ img:hover{
     width: 24vw;
     height: 29vh;
     border-radius: 5vh;
-    box-shadow: 2vh 3vh 3vh rgb(23, 23, 23);
+    box-shadow: 0.2vh 0.7vh 0.7vh rgb(23, 23, 23, 0.7);
+    scale: 104%;
+}
+
+.pName:hover{
+    scale: 110%;
+    color: rgb(6, 0, 53);
     transition: 1s;
 }
 
@@ -54,12 +61,16 @@ img:hover{
 }
 
 .pName{
-    font-size: 40px;
+    font-size: 42px;
     margin-left: 2vh;
+    min-width: 10vw;
+    transition: 1s;
+    cursor: pointer;
 }
 
-.pDescribing{
+.pDescription{
     margin-left: 5vh;
-    font-size: 17px;
+    font-size: 20px;
+    min-width: 60vw;
 }
 
